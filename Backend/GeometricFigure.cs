@@ -20,6 +20,6 @@ public abstract class GeometricFigure
 
     public abstract float GetPerimeter();
 
-    public override string ToString() => $"{Name}\t\t => " + $"Area.....: {GetArea():N5}\t\t Perimeter.....: {GetPerimeter():N5}";
+    public override string ToString() => $"{Name}\t\t => " + $"Area.....: {GetArea(),10:N5}  Perimeter.....: {GetPerimeter(),10:N5}";
 
 }
