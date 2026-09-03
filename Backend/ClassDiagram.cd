@@ -22,10 +22,17 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Backend.Rhombus">
-    <Position X="9.5" Y="4.5" Width="1.75" />
+    <Position X="9.75" Y="4.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAAAAAAAAAAAAAAQAAAAAAEIAAkAEAAAAAA=</HashCode>
       <FileName>Rhombus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.Kite">
+    <Position X="12.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAIAAAAAAAAAEAAAAAEAEAAAA=</HashCode>
+      <FileName>Kite.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
