@@ -18,8 +18,8 @@ public class Kite : Rhombus
         set => _b = ValidateB(value);
     }
     //Public Methods
-    public override float GetArea() => (D1 * D2) / 2;
-    public override float GetPerimeter() => 2 * (A + B);
+    public override double GetArea() => (D1 * D2) / 2;
+    public override double GetPerimeter() => 2 * (A + B);
     //Private Methods
     private int ValidateB(int B)
     {

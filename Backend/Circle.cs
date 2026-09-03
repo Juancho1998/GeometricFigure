@@ -20,9 +20,9 @@ public class Circle : GeometricFigure
 
 
     //Public Methods
-    public override float GetArea() => (float)Math.PI * (float)Math.Pow(R, 2);
+    public override double GetArea() => (float)Math.PI * (float)Math.Pow(R, 2);
 
-    public override float GetPerimeter() => 2 * (float)Math.PI * R;
+    public override double GetPerimeter() => 2 * (float)Math.PI * R;
 
     //Private Methods
 

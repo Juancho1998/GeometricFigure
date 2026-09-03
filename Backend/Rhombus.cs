@@ -25,8 +25,8 @@ public class Rhombus : Square
     }
 
     //Public Methods
-    public override float GetArea() => (D1 * D2) / 2;
-    public override float GetPerimeter() => 4 * A;
+    public override double GetArea() => (D1 * D2) / 2;
+    public override double GetPerimeter() => 4 * A;
 
 
     //Private Methods
