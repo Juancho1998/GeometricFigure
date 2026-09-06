@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Backend.GeometricFigure">
-    <Position X="7" Y="1.25" Width="1.75" />
+    <Position X="7" Y="2" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAEAAAAAEAAAAAA=</HashCode>
       <FileName>GeometricFigure.cs</FileName>
@@ -50,10 +50,17 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Backend.Triangle">
-    <Position X="4.75" Y="1.25" Width="1.5" />
+    <Position X="4.75" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAmEABAAA=</HashCode>
       <FileName>Triangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.Trapeze">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAFAAAAAA=</HashCode>
+      <FileName>Trapeze.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

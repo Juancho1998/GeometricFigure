@@ -26,7 +26,7 @@ public class Parallelogram : Rectangle
     {
         if (H <= 0)
         {
-            throw new Exception($"The area: {H}, cannot be less zero.");
+            throw new Exception($"The area: {H}, cannot be less or equal zero.");
         }
         return H;
     }

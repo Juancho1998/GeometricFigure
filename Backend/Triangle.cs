@@ -35,7 +35,7 @@ public class Triangle : Rectangle
     {
         if (C <= 0)
         {
-            throw new Exception($"The area: {C}, cannot be less zero.");
+            throw new Exception($"The area: {C}, cannot be less or equal zero.");
         }
         return C;
     }
@@ -43,7 +43,7 @@ public class Triangle : Rectangle
     {
         if (H <= 0)
         {
-            throw new Exception($"The area: {H}, cannot be less zero.");
+            throw new Exception($"The area: {H}, cannot be less or equal zero.");
         }
         return H;
     }

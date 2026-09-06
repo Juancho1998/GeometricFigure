@@ -23,9 +23,9 @@ public class Kite : Rhombus
     //Private Methods
     private int ValidateB(int B)
     {
-        if (B < 0)
+        if (B <= 0)
         {
-            throw new Exception($"The area: {B}, cannot be less zero.");
+            throw new Exception($"The value: {B}, cannot be less or equal zero.");
         }
         return B;
     }

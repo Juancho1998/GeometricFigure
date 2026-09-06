@@ -25,9 +25,9 @@ public class Square : GeometricFigure
     //Private Methods
     private double ValidateA(double A)
     {
-        if (A < 0)
+        if (A <= 0)
         {
-            throw new Exception($"The area: {A}, cannot be less zero.");
+            throw new Exception($"The value: {A}, cannot be less or equal zero.");
         }
         return A;
     }

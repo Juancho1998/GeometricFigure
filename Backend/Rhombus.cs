@@ -32,17 +32,17 @@ public class Rhombus : Square
     //Private Methods
     private int ValidateD1(int D1)
     {
-        if (D1 < 0)
+        if (D1 <= 0)
         {
-            throw new Exception($"The area: {D1}, cannot be less zero.");
+            throw new Exception($"The value: {D1}, cannot be less or equal zero.");
         }
         return D1;
     }
     private int ValidateD2(int D2)
     {
-        if (D2 < 0)
+        if (D2 <= 0)
         {
-            throw new Exception($"The area: {D2}, cannot be less zero.");
+            throw new Exception($"The value: {D2}, cannot be less or equal zero.");
         }
         return D2;
     }

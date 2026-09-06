@@ -28,9 +28,9 @@ public class Circle : GeometricFigure
 
     private int ValidateR(int R)
     {
-        if (R < 0)
+        if (R <= 0)
         {
-            throw new Exception($"The radius: {R}, cannot be less zero.");
+            throw new Exception($"The radius: {R}, cannot be less or equal zero.");
         }
         return R;
     }

@@ -27,7 +27,7 @@
         {
             if (B <= 0)
             {
-                throw new Exception($"The area: {B}, cannot be less zero.");
+                throw new Exception($"The area: {B}, cannot be less or equal zero.");
             }
             return B;
         }
